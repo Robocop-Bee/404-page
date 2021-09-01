@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 100%;
+}
+
+.main-content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-title {
+    position: absolute;
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    font-size: 1.66vw;
+    line-height: 1.7vw;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+    left: 5.35%;
+    top: 2.80%;
+    width:  9.24%;
+    height: 1.74%;
+    color: #333333;
+}
+
+.main-content img {
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+    width: 37.45%;
+    height: 41.42%;
+}
+
+.title-box{
+    position: absolute;
+    width: 40.70%;
+    height: 13.20%;
+    left: 51.04%;
+    top: 24.53%;
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 4.44vw;
+    line-height: 6.60vw;
+    letter-spacing: -0.035em;
+    
+}
+
+.description-box{
+    position: absolute;
+    left: 51.11%;
+    top: 45.46%;
+    width: 26.45%;
+    height: 10%;
+}
+
+
+.description {
+    font-size: 1.66vw;
+    line-height: 2.50vw;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+
+}
+
+
+.button-container {
+    position: absolute;
+    left: 51.39%;
+    top: 61.39%;
+    width: 15%;
+    height: 6.30%;
+}
+
+.back-to-home {
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    font-size: 1vw;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1.3125rem;
+}
+
+@media only screen and (min-width:1441px){
+    .title{
+        font-size:3.4vw;
+        line-height: 4.5vw;
+    }
+
+    .description {
+        font-size: 1.2vw;
+    }
+    
+    .main-content img {
+        height: 52%;
+        width: 42%;
+    }
+}
+
+@media only screen and (max-width: 765px ) {
+    .main-title{
+        width: 35.50%;
+        left: 6.4%;
+        top: 2.10%;
+        font-size: 6.4vw;
+        line-height: 6.66vw;
+    }
+
+    .main-content img {
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49%;
+        bottom: 63.44%;
+        height: 22.56%;
+        width: 76.49%;
+    }
+
+    .title-box {
+        top: 43%;
+        left: 6.5%;
+        height: 14.96vw;
+        width: 96vw;
+    }
+
+    .title {
+        font-size: 12.8vw;
+        line-height: 19vw;
+    }
+
+    .description-box {
+        width: 87.50%;
+        height: 8.5%;
+        left: 6.13%;
+        top: 61%;
+    }
+
+    .description {
+        font-size: 4.8vw;
+        line-height: 7.2vw;
+    }
+
+    .button-container{
+        width: 57.6%;
+        height: 7.16%;
+        left: 6.4%;
+        top: 76.50%;
+    }
+
+    .back-to-home{
+        font-size: 3.73vw;
+    }
+}
