@@ -8,12 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="https:// plain-plate.surge.sh
+    <a href="https://plain-plate.surge.sh
 ">
       Demo
     </a>
     <span> | </span>
-    <a href="https:// plain-plate.surge.sh
+    <a href="https://plain-plate.surge.sh
 ">
       Solution
     </a>
